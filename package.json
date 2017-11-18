@@ -1,0 +1,14 @@
+{
+  "name": "blog-fancy-giulia",
+  "private": true,
+  "version": "0.0.0",
+  "description": " a fancy blog to view drawings and pictures",
+  "repository": "",
+  "author": "Raja Bellebon",
+  "license": "",
+  "dependencies": {
+    "create-react-app": "^1.4.3",
+    "global": "^4.3.2",
+    "prettier": "^1.8.2"
+  }
+}
