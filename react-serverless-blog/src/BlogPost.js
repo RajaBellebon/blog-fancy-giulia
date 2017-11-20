@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Helmet from 'react-helmet';
 import Butter from 'buttercms'
 
-const butter = Butter('de55d3f93789d4c5c26fb07445b680e8bca843bd');
+const butter = Butter('7688c228f160bd93015c921f4f443b3cbbf2d75e');
 
 class BlogPost extends Component {
 
@@ -28,7 +28,6 @@ class BlogPost extends Component {
   render() {
     if (this.state.loaded) {
       const post = this.state.post;
-
       return (
        
         <div>

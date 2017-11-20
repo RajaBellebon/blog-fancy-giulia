@@ -40,7 +40,7 @@ class BlogHome extends Component {
   render() {
     if (this.state.loaded) {
       const { next_page, previous_page } = this.state.resp.meta;
- 
+      console.log(this.state.resp.data);
       return (
         <div>
           {this.state.resp.data.map((post) => {
